@@ -1,3 +1,11 @@
 This is the classic Reinforcement Learning Problem - Multi Arm Bandit Problem which is being solved by Thomson Sampling.
 
--Import the Libraries
+
+Step-1 : Create a Dataset similar to real scenario
+
+import pandas as pd
+import random
+
+dataset={}
+
+
