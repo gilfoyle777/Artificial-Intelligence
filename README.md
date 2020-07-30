@@ -11,3 +11,7 @@ Resources to follow for the following topics:
 
 
 3.[AI Crash Course - Thomas Sampling](https://github.com/PacktPublishing/AI-Crash-Course/blob/master/Chapter%2005/predictor.py)
+
+4.[Comparision of Thomson sampling vs ε-Greedy Algorithm](https://towardsdatascience.com/hompson-sampling-for-multi-armed-bandit-problems-part-1-b750cbbdad34)
+
+5.[Bandit Sampling Analysis](https://github.com/kfoofw/bandit_simulations/blob/master/python/multiarmed_bandits/analysis/ts.md)
