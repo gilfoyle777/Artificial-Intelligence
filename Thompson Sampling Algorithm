@@ -1,11 +1,21 @@
-This is the classic Reinforcement Learning Problem - Multi Arm Bandit Problem which is being solved by Thomson Sampling.
+# This is the classic Reinforcement Learning Problem - Multi Arm Bandit Problem which is being solved by Thomson Sampling.
 
 
-Step-1 : Create a Dataset similar to real scenario
+## Step-1 : Create a Dataset similar to real scenario
+
+### Import the libraries
 
 import pandas as pd
+import numpy as np
 import random
 
+
+There are two methods to create a real life dataset.
+
+Method-1
+-Intialize success probabilities of each slot machine.
+Method-2
+-Using List comprehension creating a series for each slot machine 
 dataset={}
 
 
