@@ -12,10 +12,30 @@ import random
 
 There are two methods to create a real life dataset.
 
-Method-1
+## Method-1
 -Intialize success probabilities of each slot machine.
-Method-2
--Using List comprehension creating a series for each slot machine 
-dataset={}
+
+success_rate=[0.001, 0.02, 0.22, 0.35, 0.13]
+ntrials=1000
+nslots=len(success_rate)
+
+data_set=np.zeros((ntrials,nslots))
+for i in range(ntrials):
+  for j in range(nslots):
+    if random.random() < success_rate[j]:
+      data_set[i][j]=1
+
+
+## Method-2
+-Using List comprehension creating a series for each slot machine.
+
+lst={}
+lst['S1']=[random.randint(0,1) for i in range(0,1000)]
+lst['S2']=[random.randint(0,1) for j in range(0,1000)]
+lst['S3']=[random.randint(0,1) for k in range(0,1000)]
+lst['S4']=[random.randint(0,1) for l in range(0,1000)]
+lst['S5']=[random.randint(0,1) for n in range(0,1000)]
+dataset=pd.DataFrame(lst)
+
 
 
