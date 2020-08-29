@@ -22,4 +22,4 @@ Resources to follow for the following topics:
 
 ## Q-Learning
 
-1.[Foundations of Computational Agents] (https://artint.info/html/ArtInt_265.html)
+1.[Foundations of Computational Agents](https://artint.info/html/ArtInt_265.html)
