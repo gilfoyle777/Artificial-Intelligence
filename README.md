@@ -18,3 +18,8 @@ Resources to follow for the following topics:
 5.[Bandit Sampling Analysis](https://github.com/kfoofw/bandit_simulations/blob/master/python/multiarmed_bandits/analysis/ts.md)
 
 6.[Multi-Armed Bandit Problem](https://lilianweng.github.io/lil-log/2018/01/23/the-multi-armed-bandit-problem-and-its-solutions.html)
+
+
+## Q-Learning
+
+1.[Foundations of Computational Agents] (https://artint.info/html/ArtInt_265.html)
